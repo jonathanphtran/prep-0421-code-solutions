@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+  on line 8, there is a rule set with a selector for all body elements
+  In the declaration block, there is a property of margin and a value of 0
+  there is another property of font family with a value of sans-serif
+*/
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
