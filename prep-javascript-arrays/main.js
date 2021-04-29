@@ -1,0 +1,18 @@
+const languagesArray = ['html', 'css', 'javascript', 'react', 'node.js'];
+console.log(languagesArray);
+console.log('array length: ' + languagesArray.length);
+languagesArray.push('C#');
+languagesArray.push('php');
+console.log(languagesArray);
+languagesArray.pop();
+console.log(languagesArray);
+languagesArray.unshift('C++');
+console.log(languagesArray);
+languagesArray.shift();
+console.log(languagesArray);
+const thirdELement = languagesArray[2];
+console.log(thirdELement);
+const arrayLength = languagesArray.length;
+console.log('The final length of the array is: ' + arrayLength);
+const lastItem = languagesArray[languagesArray.length - 1];
+console.log('The last item in the array is: ' + lastItem);
